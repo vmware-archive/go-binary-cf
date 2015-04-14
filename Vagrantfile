@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
      sudo apt-get install -y golang gccgo
      pushd /vagrant
         mkdir -p bin
-        go build -o bin/test-server -compiler gccgo -gccgoflags "-static-libgo"
+        go build -o bin/test-server -ldflags "-s"
      popd
 
      echo "Build complete.  Now run: "
