@@ -1,0 +1,7 @@
+---
+buildpack: https://github.com/ryandotsmith/null-buildpack
+stack: cflinuxfs2
+applications:
+  - name: test-server
+    memory: 128M
+    command: bin/test-server

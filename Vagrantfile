@@ -13,6 +13,6 @@ Vagrant.configure(2) do |config|
      popd
 
      echo "Build complete.  Now run: "
-     echo "cf push test-server -b https://github.com/ryandotsmith/null-buildpack -s cflinuxfs2"
+     echo "cf push some-app-name"
    SHELL
 end
