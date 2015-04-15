@@ -1,0 +1,4 @@
+{
+  "APP_START_CMD": "bin/test-server",
+  "WEB_SERVER": "none"
+}

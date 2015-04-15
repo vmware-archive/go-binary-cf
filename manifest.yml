@@ -1,5 +1,5 @@
 ---
-buildpack: https://github.com/ryandotsmith/null-buildpack
+buildpack: php_buildpack
 stack: cflinuxfs2
 applications:
   - name: test-server
